@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,8 @@
 </head>
 <body>
     
-<script type="text/javascript" src="script.js"></script>
-
+    <button id="button">cliquez sur moi</button>
+    <article id="citation"></article>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

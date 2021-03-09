@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <textarea name="" id="keylogger" cols="30" rows="10"></textarea>
 <script type="text/javascript" src="script.js"></script>
 
 </body>

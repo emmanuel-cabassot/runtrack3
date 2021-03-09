@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
-<script type="text/javascript" src="script.js"></script>
-
+    <article id="citation">"La vie a beaucoup plus d’imagination que nous”.</article>
+    <button id="button">Enregistrer sur la console</button>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

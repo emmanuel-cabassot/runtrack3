@@ -1,0 +1,21 @@
+body{
+    height: 4096px;
+}
+
+#progress{
+	background-color: #3b87dd;
+	height: 6px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
