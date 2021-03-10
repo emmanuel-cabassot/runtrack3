@@ -1,0 +1,20 @@
+#rangees{
+    display: flex;   
+    border: 1px solid black;
+    width: 50%;
+}
+
+#melangees{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+}
+
+img{
+    height: 250px;
+    width: 90px;
+    padding: 0 2px;
+}
+
+
+
