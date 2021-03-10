@@ -9,7 +9,7 @@ document.addEventListener('keydown', (e) => {
     code += NomTouche 
     console.log(code)
     if (code == konami) {
-        
+        alert('Mode facile activé')
     }
 }) 
 

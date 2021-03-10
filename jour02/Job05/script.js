@@ -16,8 +16,10 @@ window.onload = () => {
         // Calcul de la couleur
         let color = position / hauteur * 255
 
-        // Modification du CSS de la barre
+        // Modification du CSS de la barre du haut
         document.getElementById("progress").style.width = barre+"px"
+
+        // Modification de la couleur de la barre du bas
         document.querySelector("footer").style.backgroundColor = "rgb(" + color + ", " + color + ", " + color + ")"
     })  
     
