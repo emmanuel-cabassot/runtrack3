@@ -16,55 +16,86 @@ var melanges;
 
 $('#button').on('click', function () {
     for (let index = 1; index < 7; index++) {
-        $('#rangees .' + index ).empty() 
-        $('#melangees .'  + index).html(tableau[index - 1])  
+        $('#rangees .' + index).empty()
+        $('#melangees .' + index).html(tableau[index - 1])
         $('#button').css('display', 'none')
     }
 });
 
-let tour = 1;
-$('#melangees .1').on('click', function(){
+var tour = 1;
+$('#melangees .1').on('click', function () {
     tempo = $('#melangees .1').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .1').empty();
-    tour ++
+    tour++
+
 });
 
-$('#melangees .2').on('click', function(){
+$('#melangees .2').on('click', function () {
     tempo = $('#melangees .2').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .2').empty();
-    tour ++
+    tour++
+
 });
 
-$('#melangees .3').on('click', function(){
+$('#melangees .3').on('click', function () {
     tempo = $('#melangees .3').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .3').empty();
-    tour ++
+    tour++
+
 });
 
-$('#melangees .4').on('click', function(){
+$('#melangees .4').on('click', function () {
     tempo = $('#melangees .4').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .4').empty();
-    tour ++
+    tour++
+
 });
 
-$('#melangees .5').on('click', function(){
+$('#melangees .5').on('click', function () {
     tempo = $('#melangees .5').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .5').empty();
-    tour ++
+    tour++
+
 });
 
-$('#melangees .6').on('click', function(){
+$('#melangees .6').on('click', function () {
     tempo = $('#melangees .6').html();
     $('#rangees .' + tour).html(tempo);
     $('#melangees .6').empty();
-    tour ++
+    tour++
+
 });
 
-if ($('#melangees .6') != '') {
-    console.log('ca marche')
-}
+
+$('#melangees').on('click', function () {
+    console.log(tour)
+    if (tour == 7) {
+        let tableauMelangees = '';
+        for (let index = 0; index < 5; index++) {
+            tableauMelangees += $('#melangees .1').html();
+            return index++
+        }
+
+        let tableauRangees = '';
+        for (let index = 0; index < 5; index++) {
+            tableauRangees += $('#rangees .' + [index + 1]).html();
+            return index++
+        }
+        console.log(index)
+        if (tableauMelangees === tableauRangees) {
+            console.log('ca marche')           
+        }
+        else{
+            console.log('Ca ne marche pas')
+        }
+    }
+});
+
+
+
+
