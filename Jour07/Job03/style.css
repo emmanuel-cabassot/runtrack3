@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) {
+    .height1,.height2{
+        height: 35vh;
+    }
+    .height3 {
+        height: 25vh;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .height1{
+        height: 10vh;
+    }
+    .height2{
+        height: 15vh;
+    }
+    .height3 {
+        height: 10vh;
+    }
+    .height4{
+height: 40vh;
+    }
+    
+}

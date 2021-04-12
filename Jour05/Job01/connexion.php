@@ -26,9 +26,9 @@ catch (Exception $e) {
 <body>
     <main>
         <section class="connexion">
-            <form>
+            <form action="api/login" method="POST">
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
+                    <label for="mail" class="form-label">Email</label>
                     <input type="email" class="form-control email" id="email">
                     <div class="erreur_email">
                         <span id="emailValide" class="cacher">Email valide</span>

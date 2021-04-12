@@ -28,7 +28,7 @@ $tab = json_encode($data);
 
 <body>
     <main>
-        <form>
+        <form action="api/register.php" method="POST">
             <div class="mb-3">
                 <label for="nom" class="form-label">Nom</label>
                 <input type="text" class="form-control" id="nom">
